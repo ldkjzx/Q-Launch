@@ -4,20 +4,65 @@
 	<head>
 		<meta http-equiv="Content-Security-Policy" content="default-src 'self' blob: filesystem: chrome-extension-resource: 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *;script-src * 'unsafe-inline'"> 
 		<style>
-			body {width:380px;}
+			body {width:280px;}
+
+			#header {
+			    background-color:black;
+			    color:white;
+			    text-align:center;
+			    padding:5px;
+			}
+			#nav {
+			    line-height:30px;
+			    background-color:#eeeeee;
+			    height:300px;
+			    width:100px;
+			    float:left;
+			    padding:5px; 
+			}
+			#section {
+			    width:250px;
+			    float:left;
+			    padding:5px; 
+			}
+			#footer {
+			    background-color:black;
+			    color:white;
+			    clear:both;
+			    text-align:center;
+			    padding:5px; 
+			}
+
+
 		</style>
 	</head>
 
 
 	<body>
 
-		<h1 id="Title">我的第一个扩展</h1>
-		<button type="button" id="botton1">Click</button>
+		<div id="header">
+		<h3 id="Title">Q-LAUNCH</h3>
+		</div>
+
+		<div id="section">
+
+		<span>URL List:</span>
+		<ol id="urllist"></ol>
+
+		<span></span>
+		<input type="text" id="ItemToAdd" placeholder="www.***.com" />
+		<input type="button" id="AddButton" value="Add"/>
+		</div>
+
+		<div id="footer">
+		<!--<button type="button" id="button1">Click</button>-->
+		<button type="button" id="button2">Multi-Open</button>
+		</div>
 
 
 
-		<script src="jquery-2.0.3.min,js" ></script>
-		<script src="popup.js"></script>
+		<script src="build/js/jquery-2.0.3.min.js" ></script>
+		<script src="build/js/popup.js"></script>
 
 
 
