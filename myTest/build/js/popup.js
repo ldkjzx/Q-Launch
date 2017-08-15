@@ -1,8 +1,13 @@
 var e_url;
 var urlList = [
-	"www.baidu.com",
-	"www.youku.com",
-	"www.126.com"
+	"http://weibo.com/",
+	"http://www.cnbeta.com/",
+	"http://focus.tianya.cn/",
+	"https://www.chiphell.com/portal.php",
+	"http://www.iplaysoft.com/",
+	"http://www.mafengwo.cn/",
+	"http://www.fengniao.com/",
+	"http://www.dgtle.com/portal.php"
 ];
 
 
