@@ -1,12 +1,43 @@
-svg {
-			  display: block;
-			  margin: 0 auto;
-			}
+canvas {
+  position: absolute;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  top: 0px;
+  left: 0px;
 
-			path {
-			  fill: none;
-			  stroke: black;
-			  stroke-width: 4;
-			  stroke-linecap: round;
-			  stroke-linejoin: round;
-			}
+
+  cursor: pointer; 
+  z-index: 0;
+}
+
+svg {
+	position: absolute;
+	
+	display: block;
+	margin: 0 auto;
+	z-index: 1;
+
+	top:50%;
+	left:50%;
+	margin-left:-175px;
+	margin-top:-150px;
+}
+
+path {
+	position: absolute;
+	fill: none;
+	stroke: white;
+	stroke-width: 4;
+	stroke-linecap: round;
+	stroke-linejoin: round;
+	z-index: 1；
+}
+
+h1 {
+  	position: absolute;
+  	z-index: 1;
+  	color: #FFFFFF;
+  	margin: 0 auto;
+}
+
