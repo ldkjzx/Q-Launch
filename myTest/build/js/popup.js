@@ -3,11 +3,11 @@ var urlList = [
 	"http://weibo.com/",
 	"http://www.cnbeta.com/",
 	"http://focus.tianya.cn/",
-	"https://www.chiphell.com/portal.php",
+	"https://www.chiphell.com/",
 	"http://www.iplaysoft.com/",
 	"http://www.mafengwo.cn/",
 	"http://www.fengniao.com/",
-	"http://www.dgtle.com/portal.php"
+	"http://www.dgtle.com/"
 ];
 
 
